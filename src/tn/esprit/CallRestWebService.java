@@ -26,6 +26,8 @@ public class CallRestWebService {
 			//ip = responseObj.getString("query");
 			ip = responseObj.getString("origin");
 			System.out.println("ip : " + ip);
+			System.out.println("melek conflict test");
+
 		} catch (IOException e) { e.printStackTrace(); }
 	}
 }
